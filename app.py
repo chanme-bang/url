@@ -9,7 +9,7 @@ import os
 import chardet
 from matplotlib import font_manager, rc
 
-df=pd.read_csv('/data.csv', encoding='euc-kr')
+df=pd.read_csv('data.csv', encoding='euc-kr')
 
 def train_model(X, y, test_size, k_neighbors):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=77)
