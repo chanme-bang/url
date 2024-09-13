@@ -10,6 +10,7 @@ import chardet
 from matplotlib import font_manager, rc
 import matplotlib.font_manager as fm
 import numpy as np
+import matplotlib as mpl
 
 
 # 폰트 파일의 경로를 설정합니다
