@@ -11,8 +11,21 @@ from matplotlib import font_manager, rc
 import matplotlib.font_manager as fm
 import numpy as np
 
-# 폰트 파일 경로
-path = 'C:/Windows/Fonts/malgun.ttf'
+# HTML 및 CSS를 사용하여 폰트 파일을 불러옵니다.
+st.markdown("""
+    <style>
+    @font-face {
+        font-family: 'Malgun Gothic';
+        src: url('static/fonts/malgun.ttf') format('truetype');
+    }
+    body {
+        font-family: 'Malgun Gothic', sans-serif;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+# 폰트 파일의 경로를 설정합니다
+font_path = 'static/fonts/malgun.ttf'
 
 # 폰트 프로퍼티 생성
 font_prop = fm.FontProperties(fname=path, size=10)
