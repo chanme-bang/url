@@ -24,6 +24,7 @@ font_name = font_prop.get_name()
 plt.rc('font', family=font_name)
 
 # 음수 표시되도록 설정
+mpl.rcParams['font.family'] = font_name
 mpl.rcParams['axes.unicode_minus'] = False
 
 df=pd.read_csv('data.csv', encoding='euc-kr')
