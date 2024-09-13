@@ -16,7 +16,7 @@ import numpy as np
 font_path = 'malgun.ttf'
 
 # 폰트 프로퍼티 생성
-font_prop = fm.FontProperties(fname=path, size=10)
+font_prop = fm.FontProperties(fname=font_path, size=10)
 font_name = font_prop.get_name()
 
 # matplotlib에 폰트 설정
