@@ -8,6 +8,25 @@ from sklearn.metrics import mean_squared_error, r2_score
 import os
 import chardet
 from matplotlib import font_manager, rc
+import matplotlib.font_manager as fm
+import numpy as np
+
+# 폰트 파일 경로
+path = 'C:/Windows/Fonts/malgun.ttf'
+
+# 폰트 프로퍼티 생성
+font_prop = fm.FontProperties(fname=path, size=10)
+font_name = font_prop.get_name()
+print(font_name)  # NanumGothic Eco
+
+# 폰트 매니저에 폰트 추가
+fm.fontManager.addfont(path)
+
+# matplotlib에 폰트 설정
+plt.rc('font', family=font_name)
+
+# 음수 표시되도록 설정
+mpl.rcParams['axes.unicode_minus'] = False
 
 df=pd.read_csv('data.csv', encoding='euc-kr')
 
