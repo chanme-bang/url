@@ -18,10 +18,6 @@ font_path = 'malgun.ttf'
 # 폰트 프로퍼티 생성
 font_prop = fm.FontProperties(fname=path, size=10)
 font_name = font_prop.get_name()
-print(font_name)  # NanumGothic Eco
-
-# 폰트 매니저에 폰트 추가
-fm.fontManager.addfont(path)
 
 # matplotlib에 폰트 설정
 plt.rc('font', family=font_name)
