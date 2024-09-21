@@ -6,7 +6,7 @@
 * 팀 특징 - 개발자는 한 명 밖에 없지만 어느 누구 하나 잘 빠지지 않고 책임감 있게 잘함☺👍
 
 * 프로젝트 목적 - 최근 5년간 날씨정보 기반으로 한 김장재료 가격 예측 모델 개발
-* 프로젝트 환경 - window 11 / 10, google colab, python3
+* 프로젝트 환경 - window 11 / 10, google colab, python3, streamlit
 
 ## Timeline⏰
 |날짜|활동 또는 회의 내용|비고|
