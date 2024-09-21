@@ -1,4 +1,4 @@
-# 포기는 배추셀 때! - Don't give up KIMJANG
+# 포기는 배추셀 때🥬 - Don't give up KIMJANG😤
 
 ## 팀 / 프로젝트 정보💬
 * 팀명 - 돈기브업김장
